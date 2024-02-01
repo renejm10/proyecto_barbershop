@@ -90,5 +90,10 @@ header{
 
 footer{
     background-color: #000;
-
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
 }
