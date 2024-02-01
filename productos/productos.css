@@ -20,13 +20,26 @@ header{
     margin: 0 0 0 15px;
 }
 
-.menu a{
+.opcion{
     text-transform: uppercase;
     color:#000;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
+
+.opcion:visited{
+    color:#000;
+}
+
+.opcion:hover{
+    color: #fff;
+}
+
+.opcion:active{
+    color: #fff;
+}
+
 
 .tarjetas{
     width: 940px;
@@ -48,16 +61,21 @@ header{
     height: 450px;
     border: 2px solid black ;
     border-radius: 20px;
+    box-sizing: border-box;
 }
 
 .tarjeta:hover{
     border: 2px solid goldenrod;
 }
 
+
+
 .card-title{
     font-size: 1.5em;
     font-weight: bold;
 }
+
+
 
 .descripcion{
     width: 75%;
@@ -68,4 +86,9 @@ header{
     font-size: 1.12em;
     font-weight: bold;
     margin-top: 15px;
+}
+
+footer{
+    background-color: #000;
+
 }
