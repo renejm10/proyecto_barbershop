@@ -93,7 +93,7 @@ header{
 }
 
 footer{
-    background:url(imagenes/bg.jpg);
+    background:url(../imagenes/bg.jpg);
     color: #fff;
     display: flex;
     flex-direction: column;
