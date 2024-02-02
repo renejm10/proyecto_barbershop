@@ -34,6 +34,7 @@ header{
 
 .opcion:hover{
     color: #fff;
+    text-decoration: underline;
 }
 
 .opcion:active{
@@ -66,12 +67,15 @@ header{
 
 .tarjeta:hover{
     border: 2px solid goldenrod;
+    border-top-width: 8px;
+    border-right-width: 8px;
+    font-size: 1.3em;
 }
 
 
 
 .card-title{
-    font-size: 1.5em;
+    font-size: 1.52em;
     font-weight: bold;
 }
 
@@ -89,11 +93,16 @@ header{
 }
 
 footer{
-    background-color: #000;
+    background:url(imagenes/bg.jpg);
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px 0;
+}
+
+.copyright{
+    font-size: 14px;
+    margin-top: 15px;
 }
