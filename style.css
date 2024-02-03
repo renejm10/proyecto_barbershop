@@ -1,3 +1,46 @@
+header{
+    background-color: darkgray;
+    padding: 20px 0;
+}
+
+.caja{
+    width:940px;
+    position: relative;
+    margin: 0 auto;
+}
+.menu{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.menu li{
+    list-style: none;
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.opcion{
+    text-transform: uppercase;
+    color:#000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.opcion:visited{
+    color:#000;
+}
+
+.opcion:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.opcion:active{
+    color: #fff;
+}
+
 .titulo-principal{
     padding-left: 30px;
 }
@@ -36,7 +79,7 @@ em strong{
     font-style: italic;
 }
 
-ul{
+.diferencial{
     display: inline-block;
     vertical-align: top;
     width: 20%;
@@ -47,3 +90,17 @@ ul{
     width: 50%;
 }
 
+footer{
+    background:url(../imagenes/bg.jpg);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.copyright{
+    font-size: 14px;
+    margin-top: 15px;
+}
