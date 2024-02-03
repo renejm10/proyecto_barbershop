@@ -21,10 +21,43 @@
             </div>
         </header>
         <main>
-            
+            <form>
+                <label class="etiqueta" for="nombreApellido">Nombre y Apellido</label>
+                <input class="input-padron" type="text" id="nombreApellido" required>
+
+                <label class="etiqueta" for="email">Correo Electronico</label>
+                <input class="input-padron" type="email" id="email" placeholder="email@domino.com" required>
+
+                <label class="etiqueta" for="telefono">Telefono</label>
+                <input class="input-padron" type="tel" id="telefono" placeholder="(XXX)XXXX XXXX" required>
+
+                <label class="etiqueta" for="mensaje">Mensaje</label>
+                <textarea class="input-padron"  id="mensaje"  rows="10" cols="70" required></textarea>
+
+                <fieldset>
+                    <legend>¿Comó le gustaria que lo contactemos?</legend>
+
+                    <label class="etiqueta" for="radio-email"><input type="radio" value="email" id="radio-email" name="contacto">Email</label>
+                    <label class="etiqueta" for="radio-telefono"><input type="radio" value="telefono" id="radio-telefono" name="contacto">Telefono</label>
+                    <label class="etiqueta" for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contacto" checked>Whatsapp</label>   
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿En cuál horario prefiere ser atendido</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+                
+                <label class="etiqueta checkbox" for=""><input type="checkbox" id="" value="" checked>¿Le gustaria recibir novedades de la barberia Alura?</label>
+                
+                <input class="enviar" type="submit" value="Enviar Formulario">
+            </form>
         </main>
         <footer>
-            <img class="logo-bajo" src="../imagenes/logo-blanco.png">
+            <img class="logo-bajo" src="../imagenes/logo-blanco.png" alt="logo de la barberia en blanco">
             <p class="copyright">&copy Copyright Barberia Alura - 2024</p>
         </footer>
     </body>

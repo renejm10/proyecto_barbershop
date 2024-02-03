@@ -42,6 +42,48 @@ header{
 }
 
 
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+.etiqueta, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.checkbox{
+    margin-top: 20px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 0.8s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
 
 
 
