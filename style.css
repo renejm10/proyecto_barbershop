@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background-color: darkgray;
     padding: 20px 0;
@@ -45,21 +49,39 @@ header{
     padding-left: 30px;
 }
 
-#banner{
+.banner{
     width:100%;
 }
 
 .principal{
-    background: #CCCCCC;
     padding: 20px;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.titulo-centralizado{
+.titulo-principal{
     text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    clear:left;
 }
 
-p{
-    text-align: center;
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal p{
+    margin-bottom: 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
 }
 
 em strong{
@@ -87,7 +109,7 @@ em strong{
 }
 
 .imagenDiferenciales{
-    width: 50%;
+    width: 60%;
 }
 
 footer{
