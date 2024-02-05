@@ -1,6 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(180deg, #fefefe 70%, #888);
+    background: linear-gradient(180deg, #fefefe 30%, #888 80%);
 }
 
 header{
@@ -113,6 +113,10 @@ header{
     display: inline-block;
     vertical-align: top;
     width: 40%;
+}
+
+.items::before{
+    content: "★";
 }
 
 .items{
